@@ -133,10 +133,14 @@ a {
 
 /* контакти */
 .phone-mail {
+  display: flex;
+  align-items: center;
   margin-left: auto;
 }
 
 .contacts {
+  display: flex;
+  align-items: center;
   font-style: normal;
   font-weight: 500;
   letter-spacing: 0.02em;
@@ -168,23 +172,23 @@ a {
       rgba(47, 48, 58, 0.8)
     ),
     url(../images/Header_img_cop.jpg);
-
-  /* background: rgba(47, 48, 58, 0.8);
-  background-color: var(--gray); */
 }
 
 .hero {
   max-width: 1200px;
   margin: 0 auto;
+  text-align: center;
   padding: 200px 452px 0;
   background-size: cover;
   padding-right: 15px;
   padding-left: 15px;
-  text-align: center;
 }
 
 .het-title {
+  max-width: 696px;
   margin-top: 0;
+  margin-right: auto;
+  margin-left: auto;
   margin-bottom: 30px;
 
   font-weight: 900;
@@ -193,8 +197,6 @@ a {
   letter-spacing: 0.06em;
 
   color: var(--white);
-
-  text-align: center;
 }
 
 /* стилі для кнопок */
